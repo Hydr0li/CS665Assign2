@@ -1,24 +1,35 @@
 package edu.bu.met.cs665;
+
 import java.util.ArrayList;
 import java.util.List;
-public class Shop {
-    private Request status;
+
+public class Shop implements Subject{
+    private DeliveryRequest state;
     // store driver
-    private List<String> driverList = new ArrayList<String>();
-
-    public void NewOrder(Request orderrequest) {
-        driverList.add("New Order");
+    private List<Observer> driverList = new ArrayList<Observer>();
+    @Override
+    public void registerObserver(Observer observer) {
+        driverList.add(observer);
     }
 
-    public void removeOrder(Request observer) {
-        driverList.remove("New Order");
+    @Override
+    public void removeObserver(Observer observer) {
+        driverList.remove(observer);
     }
 
-    public Request getStatus() {
-        return status;
+    @Override
+    public void notifyObserver() {
+        for (Observer observer : driverList) {
+            observer.update(state);
+        }
     }
 
-    public void setStatus(Request status) {
-        this.status = status;
+    public DeliveryRequest getState() {
+        return state;
+    }
+
+    public void setState(DeliveryRequest state) {
+        this.state = state;
+        notifyObserver();
     }
 }
