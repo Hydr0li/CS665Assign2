@@ -1,10 +1,10 @@
 
 | CS-665       | Software Design & Patterns |
-|--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| ------------ | -------------------------- |
+| Name         | Haizhou Li                 |
+| Date         | 02/19/2023                 |
+| Course       | CS665 Fall 2023            |
+| Assignment # | 2                          |
 
 # Assignment Overview
 Please add a paragraph or two overviewing the objectives of the assignment.
@@ -12,18 +12,22 @@ Please add a paragraph or two overviewing the objectives of the assignment.
 # GitHub Repository Link:
 https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
 
+
+
 # Implementation Description 
 
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
+- Explain the level of flexibility in your implementation, including how new object types can be easily added or removed in the future.
+
+- Discuss the simplicity and understandability of your implementation, ensuring that it is easy for others to read and maintain.
+
 - Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+
+  I do checked lots of information on different websites such as stack overflow but I only used as a reference and I have my own thought on it. 
+
+- If applicable, mention any design patterns you have used and explain why they were chosen.
 
 
 # Maven Commands
@@ -106,7 +110,6 @@ mvn checkstyle:checkstyle
 
 The HTML page will be found at the following location:
 `target/site/checkstyle.html`
-
 
 
 
