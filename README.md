@@ -7,12 +7,18 @@
 | Assignment # | 2                          |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+A collection of retailers in a busy city have collaborated with local freelance van, taxi, and scooter drivers for the delivery of products to customer destinations. Your task is to develop a notification system that will inform drivers about delivery requests. Upon receiving a product delivery order from a store, a delivery request must be generated and sent to all available drivers.
+
+Your solution must encompass the following functionality:
+
+- Classes for Shop, Delivery Request, and Driver must be incorporated into your implementation.
+- To test your solution, create an instance of Shop, a Delivery Request, and a minimum of 5 Driver objects.
+- During testing, broadcast a single Delivery Request and send notifications to all Drivers regarding the delivery.
+
+By using observer pattern to achieve this assignment. 
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
-
-
+https://github.com/Hydr0li/CS665Assign2
 
 # Implementation Description 
 
@@ -21,13 +27,19 @@ For each assignment, please answer the following:
 
 - Explain the level of flexibility in your implementation, including how new object types can be easily added or removed in the future.
 
+  For each class, there are lots of flexibilities because what I did is only the skeleton and each class has enough room for the changes. 
+
 - Discuss the simplicity and understandability of your implementation, ensuring that it is easy for others to read and maintain.
+
+  For each class, there are lots of comments so that the people in the futere to mainten can easily read and understand each method. 
 
 - Describe how you have avoided duplicated code and why it is important.
 
   I do checked lots of information on different websites such as stack overflow but I only used as a reference and I have my own thought on it. 
 
 - If applicable, mention any design patterns you have used and explain why they were chosen.
+
+  I used observer pattern for this assignment. Because the Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
 
 # Maven Commands
