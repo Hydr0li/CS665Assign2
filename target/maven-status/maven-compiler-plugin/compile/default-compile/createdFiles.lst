@@ -1,2 +1,8 @@
+edu/bu/met/cs665/Client.class
 edu/bu/met/cs665/Main.class
+edu/bu/met/cs665/Driver.class
+edu/bu/met/cs665/Observer.class
+edu/bu/met/cs665/DeliveryRequest.class
+edu/bu/met/cs665/Subject.class
 edu/bu/met/cs665/example1/Person.class
+edu/bu/met/cs665/Shop.class
